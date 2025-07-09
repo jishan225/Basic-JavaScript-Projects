@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box{
+    height: 100px;
+    width: 500px;
+    border: 1px solid black;
+    margin-top: 50px;
+    text-align: center;
+}
+.box p{
+   margin-top: 40px;
+}
+button{
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(33, 16, 103);
+    color: aliceblue;
+}
